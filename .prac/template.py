@@ -16,7 +16,7 @@ def main():
     # 整数 N 個 (スペース区切り)
     A = list(map(int, input().split()))
 
-    # 整数 (縦 N 横 W の行列)
+    # 整数 (縦 N 横 複数 の行列)
     S = [list(map(int, input().split())) for _ in range(N)]
 
 if __name__ == '__main__':
