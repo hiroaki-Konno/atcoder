@@ -1,4 +1,5 @@
 def main():
+    """ いくつかACは出るものの正解には至らず """
     import sys
     import itertools
     debug = print
