@@ -1,4 +1,8 @@
 def main():
+    """ 
+    https://qiita.com/MoroeTachibana-oh/items/4befb253fce7e4cd4826#1-5-d%E5%95%8F%E9%A1%8C-lrud-instructions
+    """
+
     import sys
 
     def input():

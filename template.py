@@ -3,6 +3,14 @@ def main():
 
     def input():
         return sys.stdin.readline().rstrip()
+
+    def dprint(*arr, end="\n", sep=" "):
+        # return
+        if sys.argv[-1]=="DEBUG":
+            print("DEBUG:",*arr, end=end, sep=sep)
+    
+    # ファイル実行時、末尾に DEBUGを付けて実行するとprintされる
+    # dprint("debug test")
     
     # 整数 1 つ
     # N = int(input())
