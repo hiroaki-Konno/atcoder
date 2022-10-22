@@ -1,4 +1,7 @@
 def main():
+    """
+    めっちゃ愚直に解いたのでTLEし放題。
+    """
     import sys
 
     def input():
