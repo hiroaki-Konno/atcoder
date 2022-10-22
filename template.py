@@ -6,7 +6,8 @@ def main():
 
     def dprint(*arr, end="\n", sep=" "):
         # return
-        if sys.argv[-1]=="DEBUG":
+        #if sys.argv[-1]=="DEBUG":
+        if sys.argv[-1]=="debug":
             print("DEBUG:",*arr, end=end, sep=sep)
     
     # ファイル実行時、末尾に DEBUGを付けて実行するとprintされる
